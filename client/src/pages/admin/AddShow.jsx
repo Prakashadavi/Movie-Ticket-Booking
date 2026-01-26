@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 import Title from '../../components/admin/Title'
 import Loading from '../../components/Loading'
 import { StarIcon, CheckIcon, DeleteIcon } from 'lucide-react'
-import { kConverter } from '../../lib/KConverter'
+import { kConverter } from '../../lib/kConverter'
 import { useAppContext } from '../../context/AppContext'
 import toast from 'react-hot-toast'
 
